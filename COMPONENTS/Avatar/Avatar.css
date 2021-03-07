@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.head {
+    height: 100vh;
+    width: 100vw;
+    background: #22D3EE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.Avatar {
+    height: 20rem;
+    width: 20rem;
+    border: 2px solid black;
+    border-radius: 50%;
+    box-shadow: 0 0 10px black;
+}
+.avatar-name {
+    font-size: 2rem;
+    margin: 1rem;
+}
