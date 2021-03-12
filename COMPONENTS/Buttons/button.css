@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: lightpink;
+    position: relative;
+}
+.primary_button {
+    margin: 1rem;
+    box-shadow: 0 0 .5rem black;
+}
+.link_button {
+    margin: 1rem;
+    box-shadow: 0 0 .5rem black;
+}
+.icon_button {
+    margin: 1rem;
+}
+.floating_action_button {
+    margin: 1rem;
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+}
+#pb {
+    padding: .5rem 1rem;
+    background: lightblue;
+}
+#lb {
+    padding: .5rem 1rem;
+    background: crimson;
+}
+#fab {
+    padding: 1rem 1rem;
+    border-radius: 50%;
+    border: 1px solid black;
+    font-size: 1.5rem;
+    background: greenyellow;
+}
