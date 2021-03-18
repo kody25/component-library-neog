@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav {
+    width: 100vw;
+    height: 100vh;
+    background: #D172E4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.nav-header {
+    width: 90vw;
+    height: auto;
+    border: .2rem solid black;
+    border-radius: .5rem;
+    padding: 1rem;
+    background: #3478E7;
+    color: white;
+}
+.element {
+    display: flex;
+    position: relative;
+}
+#last-element {
+    position: absolute;
+    right: 0;
+}
+.element li {
+    margin: .3rem;
+    list-style-type: none;
+}
