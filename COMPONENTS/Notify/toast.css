@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background: #C2E0AE;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.toast {
+    width: 70vw;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: .2rem solid black;
+    padding: .5rem 1rem;
+    background: #002962;
+}
+#msg {
+    color: white;
+    padding: 1rem;
+}
+#ans1 {
+    color: #78BAF9;
+    padding: 1rem;
+}
+#ans2 {
+    color: #78BAF9;
+    padding: 1rem;
+}
+#cross {
+    border: none;
+    background: #002962;
+    color: white;
+    padding: 1rem;
+
+}
