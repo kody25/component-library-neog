@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+.grid-2 {
+    background: #C1A7E2;
+    padding: 3rem;
+}
+#grid-2-head {
+    font-weight: bold;
+    font-style: normal;
+    border-bottom: .2rem solid black;
+    padding-bottom: 1rem;
+}
+.grid-para {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.grid-3 {
+    background: #DE5C72;
+    padding: 3rem;
+}
+#grid-3-head {
+    font-weight: bold;
+    font-style: normal;
+    border-bottom: .2rem solid black;
+    padding-bottom: 1rem;
+}
