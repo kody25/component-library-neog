@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.screen {
+    width: 100vw;
+    height: 100vh;
+    background: #F070A1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.modal {
+    width: 50vw;
+    height: auto;
+    background: #9DBECC;
+    border-radius: 2rem;
+    padding: 2rem;
+    position: relative;
+}
+#head {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+#msg {
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+#close-btn {
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+    border: none;
+    background: #F198D8;
+    box-shadow: 0 0 .3rem black;
+}
+#close-btn-2 {
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+    border: none;
+    border-radius: 50%;
+    padding: .3rem;
+    margin: .2rem;
+}
