@@ -1,0 +1,86 @@
+/* Body part starts from here: ------------------------------------------------ */
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kalam', cursive;
+    cursor: pointer;
+}
+/* body {
+} */
+.view {
+    width: 100vw;
+    height: 100vh;
+    background: #EAE7ED;
+    display: grid;
+    justify-items: stretch;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: 
+    "a a a a a"
+    "b c c c c"
+    "b c c c c"
+    "b c c c c"
+    "b c c c c"
+    "d d d d d";
+    /* align-items: start; */
+}
+.header {
+    grid-area: a;
+    background: #B793E6;
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    top: 0;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.sidebar {
+    grid-area: b;
+    background: #D7C8E6;
+}
+.content {
+    grid-area: c;
+    background: white;
+}
+.footer {
+    grid-area: d;
+    background: #B793E6;
+}
+
+/* Header part starts from here: ------------------------------------------------------------ */
+
+
+#name {
+    font-size: 4rem;
+}
+#char-1 {
+    color: #EC1A2F;
+}
+#char-2 {
+    color: #FEE019;
+}
+#char-3 {
+    color: #00F11D;
+}
+#curr-version {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 5.2rem;
+    padding-left: .5rem;
+}
+#input-field {
+    position: absolute;
+    right: 1rem;
+    border-radius: 2rem;
+    padding: .5rem 1rem;
+    color: black;
+    border: none;
+    background: #D7C8E6;
+    width: 10rem;
+    text-align: start;
+}
